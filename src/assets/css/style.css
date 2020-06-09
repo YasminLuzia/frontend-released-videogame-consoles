@@ -1,0 +1,121 @@
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  /*background-color: #666;*/
+}
+
+#idSearchDiv button {
+  margin-top: -5px;
+}
+
+#idSearchDiv table button {
+  margin-top: 0;
+}
+
+#idSearchInput {
+  width: 200px;
+  text-align: center;
+  margin-right: 50px;
+  margin-bottom: 0;
+  height: 35px;
+}
+
+#theadSticky th {
+    position: sticky;
+}
+
+body {
+  background-image: url(../img/back1.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+h1, h2, h3 {
+  text-shadow: 2px 2px 2px #4876FF85;
+}
+
+h2 {
+  margin: 25px;
+}
+
+input {
+  padding-left: 10px !important;
+  background-color: #dddddd40 !important;
+  border-right: 2px solid #9e9e9e !important;
+  border-top: 1px solid #9e9e9e30 !important;
+  border-left: 1px solid #9e9e9e30 !important;
+}
+
+input:focus {
+  border-bottom: 1px solid #1919B9 !important;
+  box-shadow: 0 1px 0 0 #1919B9 !important;
+}
+
+form button {
+  margin: 10px 20px 0 20px;
+}
+
+.nav-wrapper {
+  position: fixed !important;
+  width: 100% !important;
+  height: 64px !important;
+}
+
+.nav-wrapper a {
+  width: 100%;
+}
+
+::placeholder {
+  color: #858585;
+}
+
+caption {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px #4876FF85;
+  margin-top: 30px;
+}
+
+
+th, td {
+  text-align: center;
+  padding: 5px;
+  border-bottom: 1px solid #888;
+  border-top: collapse;
+}
+
+table {
+  border-collapse: separate;
+}
+
+th {
+  border-top: 1px solid #888;
+  border-radius: 0;
+  background-color: #ccc;
+  font-size: 18px;
+  top: 63px;
+}
+
+.game {
+  width: 100px;
+  margin-right: 50px;
+  margin-left: auto;
+  height: 50px;
+  color: #999;
+  line-height: 50px;
+}
+
+.game a {
+  color: #b3b3b3;
+  font-size: 14px;
+}
+
+.game a:hover {
+  color: #999;
+  font-size: 18px;
+}
